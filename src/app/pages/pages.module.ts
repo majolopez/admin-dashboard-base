@@ -9,6 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { IncrementerComponent } from '../components/incrementer/incrementer.component';
 import { ChartsModule } from 'ng2-charts';
 import { DougnutGraphicComponent } from '../components/dougnut-graphic/dougnut-graphic.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
     declarations: [
@@ -17,7 +18,8 @@ import { DougnutGraphicComponent } from '../components/dougnut-graphic/dougnut-g
         ProgressComponent,
         Graphics1Component,
         IncrementerComponent,
-        DougnutGraphicComponent
+        DougnutGraphicComponent,
+        AccountSettingsComponent
     ],
     exports: [
         PagesComponent,

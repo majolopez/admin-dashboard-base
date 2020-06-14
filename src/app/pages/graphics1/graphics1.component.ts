@@ -10,17 +10,17 @@ import { MultiDataSet, Label } from 'ng2-charts';
 })
 export class Graphics1Component implements OnInit {
   graphics: any = {
-    'graphic1': {
-      'labels': ['Con Frijoles', 'Con Natilla', 'Con tocino'],
-      'data':  [24, 30, 46],
-      'type': 'doughnut',
-      'title': 'El pan se come con'
+    graphic1: {
+      labels: ['Con Frijoles', 'Con Natilla', 'Con tocino'],
+      data:  [24, 30, 46],
+      type: 'doughnut',
+      title: 'El pan se come con'
     },
-    'graphic2': {
-      'labels': ['Hombres', 'Mujeres'],
-      'data':  [4500, 6000],
-      'type': 'doughnut',
-      'title': 'Entrevistados'
+    graphic2: {
+      labels: ['Hombres', 'Mujeres'],
+      data:  [4500, 6000],
+      type: 'doughnut',
+      title: 'Entrevistados'
     },
     'graphic3': {
       'labels': ['Si', 'No'],
