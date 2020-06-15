@@ -10,6 +10,8 @@ import { IncrementerComponent } from '../components/incrementer/incrementer.comp
 import { ChartsModule } from 'ng2-charts';
 import { DougnutGraphicComponent } from '../components/dougnut-graphic/dougnut-graphic.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
     declarations: [
@@ -19,7 +21,9 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
         Graphics1Component,
         IncrementerComponent,
         DougnutGraphicComponent,
-        AccountSettingsComponent
+        AccountSettingsComponent,
+        PromisesComponent,
+        RxjsComponent
     ],
     exports: [
         PagesComponent,
